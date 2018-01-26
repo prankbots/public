@@ -21,7 +21,8 @@ V2.1 last update::
 [@SUBCRABE](https://www.youtube.com/channel/UCycBrqSWEHdk-slnhUmGWiQ)
 
 ### WAJIB
-```cl.login(token="token yang akan di jadikan bot")
+```
+cl.login(token="token yang akan di jadikan bot")
 Creator = ["mid si pembuat bot"]
 admin = ["mid si pembuat bot"]
 # INSTALL
