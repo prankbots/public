@@ -524,7 +524,7 @@ def bot(op):
               #kr.sendText(op.param1,"Nama Grup: " + kr.getGroup(op.param1).name + "\nJumlah Member: " + str(len (kr.getGroup(op.param1).members)) + " orang\n\n")
               xname = cl.getContact(op.param2).displayName
               xlen = str(len(xname)+1)
-              cl.sendText(op.param1,"PRANKBOTS \n━━━━━━━━━━━━━━━━━\nNama Grup: " + cl.getGroup(op.param1).name + "\n Member: " + str(len (cl.getGroup(op.param1).members)) + " orang\n\nMaaf,  @"+xname+ "\nmember kurang dari 30 org\nUntuk info,Silahkan chat ke admin aku:")
+              cl.sendText(op.param1,"PRANKBOTS \n━━━━━━━━━━━━━━━━━\nNama Grup: " + cl.getGroup(op.param1).name + "\n Member: " + str(len (cl.getGroup(op.param1).members)) + " orang\n\nMaaf,  @"+xname+ "\nmember kurang dari 30 org\nUntuk info,Silahkan cek video nya di youtube dan jangan lupa subcrabe channel nya\n\nCHANNEL\nhttps://www.youtube.com/channel/UCycBrqSWEHdk-slnhUmGWiQ")
               hanna = Message(to=op.param1, from_=None, text=None, contentType=13)
               hanna.contentMetadata={'mid': admin}
               cl.sendMessage(hanna)
@@ -1015,11 +1015,6 @@ def bot(op):
             elif msg.text is None:
                 return
 #--------------------------------------------------------
-            elif msg.text in ["Creator","Admin","Owner"]:
-                msg.contentType = 13
-                msg.contentMetadata = {'mid': "uc9cf626eb815a70d59c8e71f9fda4872"}
-                cl.sendMessage(msg)
-		cl.sendText(msg.to,"Jangan Naksir Ya kak 🙏 ")
 #--------------------------------------------------------
 	    elif msg.text in ["Group creator","Gcreator","gcreator"]:
 		ginfo = cl.getGroup(msg.to)
