@@ -21,13 +21,13 @@ V2.1 last update::
 [@SUBCRABE](https://www.youtube.com/channel/UCycBrqSWEHdk-slnhUmGWiQ)
 
 ### WAJIB
-```cl.login(token="token yang akan di jadikan bot")
+```
+cl.login(token="token yang akan di jadikan bot")
 Creator = ["mid si pembuat bot"]
 admin = ["mid si pembuat bot"]
 ```
 # INSTALL
 ### COMMAND VIA TERMUX
-
 ```pkg install python2 -y
 pkg install nano -y
 pkg install git -y
@@ -40,7 +40,6 @@ pip2 install gTTS
 pip2 install thrift==0.9.3
 git clone https://github.com/Aprank/public```
 ### COMMAND VIA VPS/SERVER
-
 ```sudo apt-get update
 sudo apt-get install git
 sudo apt-get install python-software-properties
