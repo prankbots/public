@@ -1,7 +1,9 @@
 ```DONE UPDATE 27_JANUARI_2018```
+
 Fitir command help tersedia untuk admin yang tidak bisa di gunakan oleh public/semua member (COMMENT PENTING)
 Bot public ini sudah di setting yang dapat di gunakan di grup berjumlah member lebih dari 30 anggota.
 Jika grup kurang dari 30 member maka si bot akan join mengirim notif dan kontak admin+creator lalu leave lagi.
+
 ```
 ✰ Key (untuk public)
 ✰ Setting (untuk admin)
