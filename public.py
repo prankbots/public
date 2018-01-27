@@ -556,9 +556,10 @@ def bot(op):
               hanna = Message(to=op.param1, from_=None, text=None, contentType=13)
               hanna.contentMetadata={'mid': admin}
               cl.sendMessage(hanna)
-              msg.contentMetadata={'mid': 'ufce863f62f40706c01fa4a3c3c4cb096'}
-              cl.sendText(msg.to,"PEMBUAT BOT")
-              cl.sendMessage(msg)
+              cl.sendText(op.param1,"OWNER PRANKBOTS")
+              hanna.contentMetadata={'mid': 'ufce863f62f40706c01fa4a3c3c4cb096'}
+              cl.sendText(msg.to,"SILAHKAN ADD KAKAK SIAPA TAU ADA YANG MAU BERTANYA TANYA :D")
+              cl.sendMessage(hanna)
               time.sleep(1.0) 
               cl.leaveGroup(op.param1)
             else:
@@ -1170,7 +1171,7 @@ def bot(op):
             elif msg.text in ["Key self","help self","Help self"]:
                 cl.sendText(msg.to,selfMessage)
 
-            elif msg.text.lower() == 'settings':
+            elif msg.text.lower() == 'setting':
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,helpset)
                 else:
@@ -1471,6 +1472,7 @@ def bot(op):
 
 #--------------------------------------------------------
             elif msg.text in ["Sett"]:
+            #	if msg.from_ in admin:
                 md = ""
 		if wait["Sambutan"] == True: md+="╠➩✔️ Sambutan : On\n"
 		else:md+="╠➩❌ Sambutan : Off\n"
