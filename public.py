@@ -115,8 +115,8 @@ KAC=[cl]
 mid = cl.getProfile().mid
 
 Bots=[mid]
-Creator= ["ufce863f62f40706c01fa4a3c3c4cb096","mid kamu"] #bukan mid bot nya ya tapi mid si pembuat bot
-admin= ["ufce863f62f40706c01fa4a3c3c4cb096","mid kamu"] #yang ini samakan aja kayak mid creator
+Creator= "mid kamu" #bukan mid bot nya ya tapi mid si pembuat bot
+admin= "mid kamu" #yang ini samakan aja kayak mid creator
 
 contact = cl.getProfile()
 backup1 = cl.getProfile()
