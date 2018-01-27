@@ -1,4 +1,4 @@
-Zee# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 #prankbots public
 
 import LINETCR
@@ -89,7 +89,7 @@ BY: PRANKBOTS
          http://line.me/ti/p/~@gnh2780p
 
 """
-botMessage ="""{{ADMIN/OWNER}}
+helpset ="""{{ADMIN/OWNER}}
 ✰ Ourl (open qr)
 ✰ Curl (close qr)
 ✰ Leave all grup
@@ -556,7 +556,7 @@ def bot(op):
               hanna = Message(to=op.param1, from_=None, text=None, contentType=13)
               hanna.contentMetadata={'mid': admin}
               cl.sendMessage(hanna)
-              msg.contentMetadata={'mid':'ufce863f62f40706c01fa4a3c3c4cb096'}
+              msg.contentMetadata={'mid': 'ufce863f62f40706c01fa4a3c3c4cb096'}
               cl.sendText(msg.to,"PEMBUAT BOT")
               cl.sendMessage(msg)
               time.sleep(1.0) 
@@ -1170,8 +1170,11 @@ def bot(op):
             elif msg.text in ["Key self","help self","Help self"]:
                 cl.sendText(msg.to,selfMessage)
 
-            elif msg.text in ["Setings"]:
-                cl.sendText(msg.to,botMessage)
+            elif msg.text.lower() == 'settings':
+                if wait["lang"] == "JP":
+                    cl.sendText(msg.to,helpset)
+                else:
+                    cl.sendText(msg.to,helpset)
 
             elif msg.text in ["Key set","help set","Help set"]:
                 cl.sendText(msg.to,setMessage)
