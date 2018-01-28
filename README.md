@@ -48,6 +48,7 @@ pip2 install goslate
 pip2 install bs4
 pip2 install wikipedia
 pip2 install gTTS
+pip2 install googletrans
 pip2 install thrift==0.9.3
 git clone https://github.com/Aprank/public
 ```
@@ -62,6 +63,7 @@ sudo pip install goslate
 sudo pip install bs4
 sudo pip install wikipedia
 sudo pip install gTTS
+sudo pip install googletrans
 sudo pip install thrift==0.9.3
 git clone https://github.com/Aprank/public
 ```
